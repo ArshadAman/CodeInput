@@ -191,7 +191,7 @@ button[type="submit"]:hover {
 
 .arrow{
     position: relative;
-    left: 30%;
+    left: 34%;
 }
 .arrow img{
     width: 500px;
@@ -212,4 +212,18 @@ button[type="submit"]:hover {
   to{
     transform: rotate(360deg);
   }
+}
+
+footer{
+  background-color: black;
+  color: #fff;
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.social{
+  height: 2vh;
+  width: 2vw;
+  /* background-color: #fff; */
 }
